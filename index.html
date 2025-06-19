@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Pizza Palace</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <header class="site-header">
+        <div class="site-header__logo">
+            <h1>Pizza Palace</h1>
+        </div>
+        <nav class="site-header__nav">
+            <ul>
+                <li>
+                    <a href="#home">Home</a>
+                </li>
+                <li>
+                    <a href="#menu">Menu</a>
+                </li>
+                <li>
+                    <a href="#gallery">Gallery</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <!-- Banner -->
+        <section id="home" class="banner">
+            <div class="banner__content">
+                <h2>Welcome to the Mighty Pizza Palace</h2>
+                <p>Enjoy the best pizza ever!</p>
+                <a class="button button--error">View Menu</a>
+            </div>
+        </section>
+        <!-- Menu -->
+         <section id="menu" class="menu">
+            <div class="menu__item">
+                <h3>Pepperoni</h3>
+                <p>It's spicyyyyyyy!</p>
+                <span class="menu__item-price">
+                    $22
+                </span>
+            </div>
+            <div class="menu__item">
+                <h3>Margherita</h3>
+                <p>Basil and Cheese?! Oh my!!</p>
+                <span class="menu__item-price">
+                    $20
+                </span>
+            </div>
+            <div class="menu__item">
+                <h3>BBQ Chicken</h3>
+                <p>This chicken clucked it's last cluck. But yum!</p>
+                <span class="menu__item-price">
+                    $24
+                </span>
+            </div>
+         </section>
+         <!-- Gallery -->
+        <section id="gallery" class="gallery-layout">
+
+            <div class="gallery-layout__title">
+                <h3>Pizza PIX!</h3>
+            </div>
+
+
+            <div class="gallery-layout__main gallery-grid">
+
+                <div class="gallery-grid__item gallery-grid__item--wide">
+                    <img src="images/margherita.png">
+                </div>
+                <div class="gallery-grid__item gallery-grid__item--wide">
+                    <img src="images/pepperoni.png">
+                </div>
+                <div class="gallery-grid__item">
+                    <img src="images/veggie.png">
+                </div>
+                <div class="gallery-grid__item">
+                    <img src="images/bbq.png">
+                </div>
+                <div class="gallery-grid__item">
+                    <img src="images/ham-pineapple.png">
+                </div>
+                <div class="gallery-grid__item">
+                    <img src="images/mushroom.png">
+                </div>
+
+            </div>
+
+
+            <aside class="gallery-layout__sidebar">
+                <h4>Specials</h4>
+                <ul>
+                    <li>BBQ Chicken</li>
+                    <li>Ham & Pineapple</li>
+                </ul>
+            </aside>
+        </section>
+    </main>
+</body>
+</html>  
